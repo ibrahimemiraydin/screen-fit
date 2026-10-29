@@ -1,0 +1,17 @@
+node_modules/
+.wxt/
+.output/
+test-results/
+playwright-report/
+*.local
+.env*
+artifacts/
+coverage/
+*.log
+browser-profile*/
+*.pem
+*.key
+*.p12
+*.pfx
+extension-key.json
+scripts/probe-sites.mjs

@@ -1,0 +1,6 @@
+{
+ "extensionDescription":{"message":"Videoları sekmenin tamamına sığdırın. Sekmeleriniz ve adres çubuğunuz görünür kalsın."},
+ "actionTitle":{"message":"Screen Fit · Büyüt / geri yükle"},
+ "toggleCommand":{"message":"Videoyu büyüt / geri yükle"},
+ "selectCommand":{"message":"Video seçimini başlat"}
+}

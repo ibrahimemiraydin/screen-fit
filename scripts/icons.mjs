@@ -1,0 +1,5 @@
+import sharp from 'sharp';
+import { mkdir, writeFile } from 'node:fs/promises';
+const svg='<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><rect width="128" height="128" rx="29" fill="#24392f"/><g fill="none" stroke="#c5f178" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><path d="M28 48V28h20m32 0h20v20M28 80v20h20m32 0h20V80"/></g><path d="m55 47 26 17-26 17z" fill="#c5f178"/></svg>';
+await mkdir('public/icon',{recursive:true});await writeFile('public/icon/screen-fit.svg',svg);
+for(const size of [16,32,48,128])await sharp(Buffer.from(svg)).resize(size).png().toFile(`public/icon/${size}.png`);

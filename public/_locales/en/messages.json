@@ -1,0 +1,6 @@
+{
+ "extensionDescription":{"message":"Expand videos to fit your tab while keeping browser tabs and the address bar visible."},
+ "actionTitle":{"message":"Screen Fit · Expand / restore"},
+ "toggleCommand":{"message":"Expand / restore video"},
+ "selectCommand":{"message":"Start video selection"}
+}
